@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="993af03b-08da-4341-95b6-28c9c7be0a22" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Optica Ferrer2</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Users</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0f845389-a2a1-40c8-9ce8-e3e02b72f317">
+          <ID>Users</ID>
+          <Name>Users</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="da99ffab-8e81-4ac5-b104-8f650e8a42a7">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_users</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Clients</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="fc15f822-f69d-4a73-9163-690b7f2ea813">
+          <ID>Clients</ID>
+          <Name>Clients</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="479f5d54-d1f0-48af-acc7-7a54429bfbaa">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_clients</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Examen</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c56197c0-4a58-4530-81a0-16e8c65604be">
+          <ID>Examen</ID>
+          <Name>Examen</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c7f97aac-8342-413c-8a5b-787ef6fa97f4">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_examen</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Orden Trabajo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e935a428-355f-4e13-af82-cf030e294b0c">
+          <ID>Orden Trabajo</ID>
+          <Name>Orden Trabajo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e821e1ff-b2b4-4c5b-9087-86d41b1af937">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_orden_trabajo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Products</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ec54f830-0b29-4f60-bd9b-69c916a939eb">
+          <ID>Products</ID>
+          <Name>Products</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="852c173f-764b-48c3-8553-6b305893d84c">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_products</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sysdiagrams</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ac8608e4-0d44-42d8-8a28-779069daf02b">
+          <ID>Sysdiagrams</ID>
+          <Name>Sysdiagrams</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="96612a3f-66e9-4d9d-af75-8fdcfe962ad9">
+            <DataSourceViewID>Optica Ferrer2</DataSourceViewID>
+            <TableID>dbo_sysdiagrams</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
